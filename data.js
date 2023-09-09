@@ -53,5 +53,6 @@ new DataTable('#example', {
         { title: 'URLs/Domains' },
         { title: 'Description' },
     ],
-    data: dataSet
+    data: dataSet,
+    lengthMenu: [ [25, 50, -1], [25, 50, "All"] ]
 });
