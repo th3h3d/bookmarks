@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookmark Table</title>
+
+    <!-- Include Bootstrap CSS (CDN) -->
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        /* Apply some basic styles to the table */
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Style the table header */
+        th {
+            background-color: #3498db;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        /* Style alternating table rows */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Style table cells */
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* Hover effect on table rows */
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1>Useful links</h1>	
+    <table id="example" class="display" width="100%"></table>
+</div>
+
+
+<script src="jquery-3.7.0.js"></script>
+<script src="jquery.dataTables.min.js"></script>
+
+<script src="data.js"></script>
+
+</body>
+</html>
