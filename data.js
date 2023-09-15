@@ -44,6 +44,7 @@ const dataSet = [
     ['#transfer, #text', 'https://justpaste.it/', 'Free online text transfer'],
     ['#phishingAnalysis, #domainSecurity', 'https://dmarcian.com/', 'DMARC Domain Checker'],
     ['#malwareAnalysis, #course, #youtube','https://www.youtube.com/watch?v=20xYpxe8mBg',' Practical Malware Analysis Essentials for Incident Responders'],
+    ['#phishingAnalysis','https://qrcodescan.in/','Scan QR code']
     
 
 
